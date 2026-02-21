@@ -400,7 +400,7 @@ bitflags! {
 impl Default for Capabilities {
 	fn default() -> Self {
 		Capabilities::HEADER_HIST
-			| Capabilities::TXHASHSET_HIST
+			// | Capabilities::TXHASHSET_HIST
 			| Capabilities::PEER_LIST
 			| Capabilities::TX_KERNEL_HASH
 			| Capabilities::PIBD_HIST
